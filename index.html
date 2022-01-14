@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Attaching CSS Sheet-->
+    <link rel="shortcut icon" href="/images/caged_princess-logo.JPG" />  <!--Attaching Small icon on web-->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script> <!-- Using FontAwesome-->
+
+ </head>
+
+<body>
+
+    <!-- Main -->
+    <section id="main">
+        <!-- Navigation -->
+        <nav>
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="images/caged_princess-logo.JPG" />     
+            </a>
+            <!-- Menu -->
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certi">Certificates</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Say Hi! -->
+            <a href="#contact" class="hey">
+                Say Hii !!
+            </a>
+        </nav>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Developer pic-->
+            <div class="mypic">
+                <img src="images/riya.jpg"/>
+            </div>
+            <!-- Main text-->
+            <div class="main-text">
+                <h1>Hello, I am Riya</h1>
+                <p>Future engineer and a lifelong humanitarian. Currently, I'm a 2nd year, BTech student at 
+                    Indira Gandhi Delhi Technical university for women.I love to study new languages,new algorithms, 
+                    mathematics etc. but still there is lot more to learn,lot more to solve and lot more to build.
+                    </p>                  
+                <p>Looking forward for an environment where I can utilise my skills and expedite for 
+                    development of organisation and growth of knowledge simultaneously.</p>
+
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Experience page-->
+    <section id="experience">
+        <!-- Text -->
+        <div class="experience-text">
+            <!-- Heading -->
+            <div class="experience-heading">
+                <span>Experience</span>
+                <h2>Work Experience</h2>
+            </div>
+            <!-- Experience box container -->
+            <div class="e-box-container">
+                <div class="experience-box">
+                    <div class="e-box-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="e-box-text">
+                        <strong>Internship on Machine Learning and Deep Learning</strong>
+                        <p>I've successfully completed Eight-week online summer internship on "Machine Learning and 
+                            Deep Learning" organized by Center of Excellence-AI, IGDTUW and IGDTUW-Anveshan Foundation.                            
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-box">
+                    <div class="e-box-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="e-box-text">
+                        <strong>Mentee-Google Developer Student Clubs</strong>
+                        <p> I am an active memeber of "Augmented Reality/Virtual Reality" circle at Google Developer Student Club-GDSC,IGDTUW.                          
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-box">
+                    <div class="e-box-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="e-box-text">
+                        <strong>Mentee-UAcelt</strong>
+                        <p>Currently a mentee for a "Covid-19-Detection" project at UAcelt. We will be creating a Machine Learning model to find the trends in spreading of Corona Virus.                        
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-box">
+                    <div class="e-box-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="e-box-text">
+                        <strong>Mentor-Education Mentoring Program</strong>
+                        <p>Under the Education Mentoring Programme, each IGDTUW mentor will guide five girls studying in grades 9 to 12, clearing their doubts related to careers in STEM, share strategies for clearing entrance exams, support in accessing learning resources and motivate them as they transition from school to colleges and careers.                            
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-box">
+                    <div class="e-box-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="e-box-text">
+                        <strong>Head Event Manager-SOCH,IGDTUW</strong>
+                        <p>I'm glad to share that I've contributed as a Event Management Head at SOCH-Staion of Creativity and Hue, The Creative Society for IGDTUW for academic session 2020-2021                       
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-box">
+                    <div class="e-box-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="e-box-text">
+                        <strong>Co-Author</strong>
+                        <p>I've worked as a co-author in a very popular book "Feminism" widely available on Amazon.                            
+                        </p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <!-- Image -->
+        <div class="experience-image">
+            <img src="images/experience.jfif" />
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project">
+        <!--Heading-->
+        <div class="project-heading">
+        <span>Projects</span>
+        <h2>Projects</h2>
+        </div>
+           <div class="project1">
+               <div class="project1-image">
+                   <img src="images/face recognition attendence system.JPG"/>
+               </div>
+               <div class="project1-content">
+                   <h3>Face Recognition Attendence System</h3>
+                   <p>I have developed this face recognition Attendence system using Python. It is connected to an SQL database to store student details and attendence information. OpenCV and PIL libraries are used to capture the faces of student and store them in an image file. LBPH Face recognizer algorithm is used which is one of the easiest algorithms for face detection. HaarCascade frontal face algorithm is used which identifies the faces in an image.Tkinter is used to create user interface and datetime library is used to record attendence in real time. This recorded attendence can be exported using an excel or csv file.</p>
+               </div>
+           </div>
+           <div class="project2">
+            <div class="project2-image">
+                <img src="images/job portal.JPG"/>
+            </div>
+            <div class="project2-content">
+                <h3>Online Job Application Portal</h3>
+                <p>All of the problems can be solved with development of web portal where job seekers can create their account , upload their Curriculum Vitae (CV) ,apply for jobs online ,update their profiles regularly and wait for reply. Moreover the job seeker has chance to apply for best job that suits his/her skills. The job portal will also help job seekers who dont know various companies and other employers unlike in current system where websites are used where few people are aware of existing company. The online job portal will allow job seekers to apply for jobs at their comfort from any part of world using internet. In this portal there is no payment or fee registration. Banners of advertisement on this portal are not allowed .This system can run on windows with user friendly interface.</p>
+            </div>
+        </div>
+        <div class="project3">
+            <div class="project3-image">
+                <img src="images/roll_a_ball.JPG"/>
+            </div>
+            <div class="project3-content">
+                <h3>Roll a Ball Game-(Unity Engine)</h3>
+                <p>This game is created using Unity Engine .The objective of the game is to roll a ball inside a box and collect all the available boxes. The boxes should simulate a rotation animation, capturing the attention of the player. Each time the ball hits a box one point should be awarded to the player, a “cashier” sound effect played, and then that box should disappear from the scene.Language used for this game development is C#.</p>
+            </div>
+        </div>
+        <div class="project4">
+            <div class="project4-image">
+                <img src="images/chatbot.JPG"/>
+            </div>
+            <div class="project4-content">
+                <h3>University Chatbot</h3>
+                <p>Chatbots are Artificial Intelligence (AI) based conversational systems which are able to process human language through various techniques including Natural Language Processing (NLP) and Neural Network (NN).I have created a conversational chatbot using the power of sequence-to-sequence LSTM models. This chatbot will be answering the queries relating to student admission in the university.All the intents for training the chatbot are stored in a json file.Tensorflow API is used..This chatbot use CNN(Convolutional Neural Network) for its operation and provides accuracy upto 80%.</p>
+            </div>
+        </div>
+        <div class="project5">
+            <div class="project5-image">
+                <img src="images/vaccine_system.JPG"/>
+            </div>
+            <div class="project5-content">
+                <h3>Covid-19 Vaccination Management System</h3>
+                <p>The main purpose of this project is to build a vaccine management system to enhance and upgrade the current vaccination system into more efficient and effective as compared to before. The current old system has a lot of ambiguity that caused inaccurate and inefficient of vaccine taking. . System can efficiently manage how many vaccines are available and how many more has to be added. Also system can effectively filter data according to profession ,age and gender .searching for same data through files is a tedious task and requires lot of time and effort. The project is build using data structure. New registration and management is done using circular queue. The project was developed in c++ language.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Education -->
+    <section id="education">
+           <!-- Text -->
+        <div class="education-text">
+            <!-- Heading -->
+            <div class="education-heading">
+                <span>Education</span>
+                <h2>Education</h2>
+            </div>
+            <!-- Education box container -->
+            <div class="ed-box-container">
+                <div class="education-box">
+                    <div class="ed-box-icon">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <div class="ed-box-text">
+                        <strong>B.Tech(Computer Science-Artificial Intelligence)</strong>
+                        <p>(2020-2024)<br>
+                            Pursuing B.Tech. at Indira Gandhi Delhi Technical University for Women.<br>
+                            CGPA(First Year)  7.95                            
+                        </p>
+                    </div>
+                </div>
+                <div class="education-box">
+                    <div class="ed-box-icon">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <div class="ed-box-text">
+                        <strong>All India Senior Certificate Examination</strong>
+                        <p> Year-2020 <br>
+                            Central Board of Secondary Education<br>
+                            Percentage 93.5%<br>
+                            Studied at "Queen Mary's School , Tis Hazari,Delhi"                         
+                        </p>
+                    </div>
+                </div>
+                <div class="education-box">
+                    <div class="ed-box-icon">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <div class="ed-box-text">
+                        <strong>All India Certificate Examination</strong>
+                        <p>Year-2018 <br>
+                            Central Board of Secondary Education<br>
+                            Percentage 88%<br>
+                            Studied at "Queen Mary's School , Tis Hazari,Delhi"                         
+                        </p>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+        <!-- Image -->
+        <div class="education-image">
+            <img src="images/education.jpg" />
+        </div>
+    </section>
+    <!-- Certificates -->
+    <section id="certi">
+        <!--Heading-->
+        <div class="certi-heading">
+        <span>certificate</span>
+        <h2>Certificate</h2>
+        </div>
+           <div class="certi1">
+               <div class="certi1-image">
+                   <img src="images/iirs.JPG"/>
+               </div>
+               <div class="certi1-content">
+                   <h3>Basics of RS,GIS and GNSS-ISRO,IIRS</h3>
+               </div>
+           </div>
+           <div class="certi2">
+            <div class="certi2-image">
+                <img src="images/nvidia.JPG"/>
+            </div>
+            <div class="certi2-content">
+                <h3>Fundamentals of Accelarated Computing using CUDA Python-NVIDIA,Deep Learning Institute</h3>
+            </div>
+        </div>
+        <div class="certi3">
+            <div class="certi3-image">
+                <img src="images/googlecloud.JPG"/>
+            </div>
+            <div class="certi3-content">
+                <h3>30 Days of Google Cloud</h3>
+            </div>
+        </div>
+        <div class="certi4">
+            <div class="certi4-image">
+                <img src="images/duke.JPG"/>
+            </div>
+            <div class="certi4-content">
+                <h3>Basics of HTML,CSS and JavaScript-Coursera</h3>
+            </div>
+        </div>
+        <div class="certi5">
+            <div class="certi5-image">
+                <img src="images/certi1.JPG"/>
+            </div>
+            <div class="certi5-content">
+                <h3>Build Your Own Chatbot-Cognitive Class,IBM Skill Labs</h3>
+            </div>
+        </div>
+        <div class="certi6">
+            <div class="certi6-image">
+                <img src="images/certi2.JPG"/>
+            </div>
+            <div class="certi6-content">
+                <h3>Data Visualisation using Python-Cognitive Class,IBM Skill Labs</h3>
+            </div>
+        </div>
+        <div class="certi7">
+            <div class="certi7-image">
+                <img src="images/certi3.JPG"/>
+            </div>
+            <div class="certi7-content">
+                <h3>Data Analysis using Python-Cognitive Class,IBM Skill Labs</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Education -->
+    <section id="skill">
+        <!-- Text -->
+     <div class="skill-text">
+         <!-- Heading -->
+         <div class="skill-heading">
+             <span>Skills</span>
+             <h2>Skills</h2>
+         </div>
+         <!-- Skill box container -->
+         <div class="s-box-container">
+             <div class="skill-box">
+                 <div class="s-box-icon">
+                    <i class="fas fa-trophy"></i>
+                 </div>
+                 <div class="s-box-text">
+                     <strong>C++</strong>
+                 </div>
+             </div>
+             <div class="skill-box">
+                 <div class="s-box-icon">
+                    <i class="fas fa-trophy"></i>
+                 </div>
+                 <div class="s-box-text">
+                     <strong>Python</strong>
+                 </div>
+             </div>
+             <div class="skill-box">
+                 <div class="s-box-icon">
+                    <i class="fas fa-trophy"></i>
+                 </div>
+                 <div class="s-box-text">
+                     <strong>HTML</strong>
+                 </div>
+             </div>
+             <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>CSS</strong>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>JavaScript</strong>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>Machine Learning</strong>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>Web Development</strong>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>Problem-Solving</strong>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>Content-Writing</strong>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>Leadership </strong>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                   <i class="fas fa-trophy"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>Eye for Detail</strong>
+                </div>
+            </div>
+         </div>
+     </div>
+     <!-- Image -->
+     <div class="education-image">
+         <img src="images/skills.jpg" />
+     </div>
+ </section>
+ <!-- Contact -->
+ <section id="contact">
+    <!-- Text -->
+ <div class="contact-text">
+     <!-- Heading -->
+     <div class="contact-heading">
+         <span>contact</span>
+         <h2>Contact</h2>
+     </div>
+     <!-- Contact box container -->
+     <div class="c-box-container">
+         <div class="c-box">
+             <div class="c-box-icon">
+                <i class="fas fa-envelope"></i>
+             </div>
+             <div class="c-box-text">
+                 <strong>E-mail ID</strong>
+                 <p>guptariya060702@gmail.com                           
+                 </p>
+             </div>
+         </div>
+         <div class="c-box">
+             <div class="c-box-icon">
+                 <i class="fab fa-linkedin"></i>
+             </div>
+             <div class="c-box-text">
+                 <strong>LinkedIn Profile</strong>
+                 <p> https://www.linkedin.com/in/riya-gupta-7304561bb                         
+                 </p>
+             </div>
+         </div>
+         <div class="c-box">
+             <div class="c-box-icon">
+                <i class="fab fa-github"></i>
+             </div>
+             <div class="c-box-text">
+                 <strong>Github Profile</strong>
+                 <p>https://github.com/riya060702                         
+                 </p>
+             </div>
+         </div>
+             
+     </div>
+ </div>
+ <!-- Image -->
+ <div class="contact-image">
+     <img src="images/contact.png" />
+ </div>
+</section>
+
+</body>
+</html>
